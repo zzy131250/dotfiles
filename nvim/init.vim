@@ -54,8 +54,8 @@ call plug#begin()
     Plug 'Yggdroot/indentLine'          " auto indent
 
     " Python plugins
-    Plug 'python-mode/python-mode'      " vim for Python
-
+    Plug 'python-mode/python-mode', { 'for': 'python' }
+    
 call plug#end()
 
 colorscheme NeoSolarized
